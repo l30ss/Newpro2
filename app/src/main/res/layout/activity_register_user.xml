@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="#FBFAF8"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="#AD2E2B2B"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="323dp"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:textSize="40sp"
+            tools:ignore="HardcodedText,MissingConstraints" />
+
+        <EditText
+
+            android:id="@+id/editTextTextEmail"
+            android:layout_width="320dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="12dp"
+            android:ems="10"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp"
+            android:textColorHint="#FFD600"
+            tools:ignore="Autofill,HardcodedText,MissingConstraints,TextContrastCheck" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="320dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="12dp"
+            android:ems="10"
+            android:hint="@string/username"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:textColorHint="#FFD600"
+            tools:ignore="Autofill,MissingConstraints,TextContrastCheck,TextContrastCheck" />
+
+        <EditText
+
+            android:id="@+id/editTextNumberPassword"
+            android:layout_width="320dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="12dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="password"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:textColorHint="#FFD600"
+            tools:ignore="HardcodedText,MissingConstraints,TextFields,TextContrastCheck,TextContrastCheck" />
+
+        <EditText
+            android:id="@+id/editTextPhone"
+            android:layout_width="320dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="12dp"
+            android:ems="10"
+            android:hint="PhoneNumber"
+            android:inputType="phone"
+            android:maxEms="10"
+            android:maxLength="10"
+            android:maxLines="10"
+            android:minHeight="48dp"
+            android:minEms="10"
+            android:minLines="10"
+            android:textColorHint="#FFD600"
+            tools:ignore="Autofill,HardcodedText,MissingConstraints,TextContrastCheck" />
+
+        <Button
+            android:id="@+id/btnconfirme"
+            android:layout_width="320dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/bgw"
+            android:ems="10"
+            android:text="@string/confirme" />
+    </LinearLayout>
+
+</RelativeLayout>

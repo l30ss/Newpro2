@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Newpro</string>
+    <string name="signin">Signin</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="don_t_have_an_account">Don\'t have an account</string>
+    <string name="sign_up_here">Sign up here</string>
+    <string name="username">Username</string>
+    <string name="confirme">Confirme</string>
+    <string name="promotion">Promotion</string>
+    <string name="_899_bath">899 Bath</string>
+    <string name="_599_bath">599 Bath</string>
+    <string name="promotion_599">Promotion 599</string>
+    <string name="gift_cards">Gift Cards</string>
+    <string name="special_cards">Special Cards</string>
+    <string name="love_cards">Love Cards</string>
+    <string name="view_all">View all</string>
+    <string name="top_categories">Top Categories</string>
+    <string name="n">N</string>
+    <string name="_2000">2000</string>
+    <string name="wedding_cards">Wedding Cards</string>
+    <string name="engagement_cards">Engagement_cards</string>
+    <string name="todo">TODO</string>
+    <string name="saved_cards">Saved Cards</string>
+    <string name="engagement_cardss">Engagement Cards</string>
+    <string name="apptizer">APPTIZER</string>
+    <string name="ฟิจิซุป">ฟิจิซุป</string>
+    <string name="fujisoup">Fujisoup</string>
+    <string name="fujichickenwing">Fujichickenwing</string>
+    <string name="ikakarake">Ikakarake</string>
+    <string name="salmonsoup">Salmonsoup</string>
+    <string name="garlicrice">Garlicrice</string>
+    <string name="friedchicken">friedchicken</string>
+    <string name="menu">Menu</string>
+    <string name="icedcoffee">IcedCoffee</string>
+
+</resources>
